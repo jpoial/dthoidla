@@ -26,7 +26,7 @@ class Num(object):
         return self.__gt__(other) or self.__eq__(other)
 
     def plus(self, b):
-        return self.__cont + b.__cont
+        return Num(self.__cont + b.__cont)
 
 
 def main():
